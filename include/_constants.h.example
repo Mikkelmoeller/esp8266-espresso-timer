@@ -1,3 +1,9 @@
 #define WIFI_SSID "<ssid>"
 #define WIFI_PASSWORD "<password>"
-#define MQTT_SERVER_IP "<mqtt broker ip>"
+
+// For Prowl, go to
+//   https://www.prowlapp.com/api_settings.php
+// to create an API key.
+// If you don't, the server will return a 401 error code.
+#define PROWL_KEY "<API key>"
+#define PROWL_APP "Espresso Timer"
